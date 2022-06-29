@@ -1,8 +1,8 @@
 # GCP Settings
-project_id          = "roidtc-june22-u100" # Enter your project ID here.
-container_registry  = "beachcoder"
-external_image_name = "external:4"
-internal_image_name = "internal:3"
+project_id          = "roidtc-june22-u111" # Enter your project ID here.
+container_registry  = "nitishchandu"
+external_image_name = "external:v2"
+internal_image_name = "internal:v1"
 
 # The image used by the deployments will be a URL created from 
 # combining the above vars. For Example: 
@@ -12,4 +12,4 @@ gcp_region_1 = "us-central1"
 gcp_zone_1   = "us-central1-c"
 
 # Application Name (used in resource names, no spaces.)
-app_name = "events-feed"
+app_name = "gcp-k8s-tf"
